@@ -1,3 +1,4 @@
+
 <h1 align="center">Welcome to Product Management API 👋</h1>
 <p>
   <a href="https://twitter.com/SousaMardoqueu" target="_blank">
@@ -18,7 +19,7 @@
 
 ### Project Description
 
-The goal of this project is to develop a microservice for managing products and categories using modern technologies such as Spring Boot and Spring Data JPA. The application includes security with Spring Security and CSRF protection, as well as comprehensive unit tests with JUnit and Mockito.
+The goal of this project is to develop a microservice for managing products and categories using modern technologies such as Spring Boot and Spring Data JPA. The application includes security with Spring Security and CSRF protection.
 
 ### Key Features
 
@@ -26,6 +27,15 @@ The goal of this project is to develop a microservice for managing products and 
 - Authentication and authorization with Spring Security.
 - CSRF protection.
 - In-memory H2 database for easy development and testing.
+
+### Testing via Postman
+
+To test the endpoints via Postman, use the following credentials:
+
+- **Username**: `superuser`
+- **Password**: `password`
+
+For endpoints that require CSRF protection, obtain the CSRF token by making a GET request and include it in the headers of your POST, PUT, and DELETE requests.
 
 ## Endpoints for Categories
 
@@ -52,7 +62,6 @@ The goal of this project is to develop a microservice for managing products and 
 👤 **Mardoqueu Sousa Telvina**
 
 * Website: [Portfolio](https://mardoqueu.vercel.app/)
-* Twitter: [@SousaMardoqueu](https://twitter.com/SousaMardoqueu)
 * Github: [@mardoqueu](https://github.com/mardoqueu)
 * LinkedIn: [@mardoqueu-sousa](https://linkedin.com/in/mardoqueu-sousa)
 
